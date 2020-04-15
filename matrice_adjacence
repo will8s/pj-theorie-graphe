@@ -1,8 +1,15 @@
 def matrice_adjacence(self):
 		""" la matrice d'adjacence stocké dans : self.list_graphe_adja"""
 		""" en paramettre nous utiliserons self.list_graphe"""
-		self.list_graphe_adja = self.list_graphe
-		for x in self.list_graphe_adja:
-			x[2] = 1 
+		for i in range(int(self.nb_sommet)):
+			for j in range(int(self.nb_sommet)):
+				self.list_graphe_adja.append([str(i),str(j),"0"])
+				
+		for i in range(len(self.list_graphe_adja)):
+			for j in range(len(self.list_graphe)):
+				if self.list_graphe[j][0]==self.list_graphe_adja[i][0] and self.list_graphe[j][1]==self.list_graphe_adja[i][1]:
+					self.list_graphe_adja[i][2]="1"
+
+		print self.list_graphe_adja
 			#tu passes toutes les valeurs des transitions à 1 
 			#pour te retrouver avec seuleument des 1 dans ta matrice et le reste devient des "0" au lieux des "*"		
