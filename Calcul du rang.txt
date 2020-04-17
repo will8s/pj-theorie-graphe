@@ -1,0 +1,20 @@
+#le rang d'un sommet est toujours strictement supérieur à ses prédécessuerus
+#le rang d'un point d'entrée = 1
+#le rang d'un sommet ayant au moins 1 prédécesseur = 1 + val.max parmis ses prédécesseurs
+
+#important : il faut que le graphe ne contienne aucun circuit
+
+#initialisation des rang de tous les sommets
+for i in range(s):
+	if le sommet s n'a aucun prédécesseur 
+		rang s = 1
+	else
+		rang s = "indéfinie"
+
+#là on a (tous) le(s) sommet(s) initial(aux)
+#ensuite on va s'occuper de tous les sommets "indéfini"
+#ces sommets vont alors devenir initiaux, en quelque sorte, avec une valeur "indéfini" que l'on va définir:
+
+tant que rang s = "indéfini" & tous les prédécesseur de s ont rang s =! "indéfini":
+	rang s = 1 + max des rang s des prédécesseurs de s
+
