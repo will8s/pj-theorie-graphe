@@ -79,7 +79,23 @@ Sommets restants :
 Suppression des points de sorties:
 0
 Sommets restants :
+
 Il n'y a pas de circuit dans le graphe  L3-F3-graphe12.txt
+
+--Rangs
+0  rang : 0
+1  rang : 3
+2  rang : 2
+3  rang : 2
+4  rang : 1
+5  rang : 2
+6  rang : 1
+7  rang : 1
+8  rang : 3
+9  rang : 4
+10  rang : 2
+11  rang : 5
+s
 Verification que le graphe est d'ordonnancement correct :
 Il existe un arc a valeur négatif
 Le graphe n'est pas d'ordonnancement correct

@@ -1,0 +1,200 @@
+10  Sommets
+18  Arcs
+0  ->  1 = 0
+0  ->  2 = 0
+1  ->  2 = 2
+1  ->  4 = 2
+1  ->  5 = 2
+2  ->  3 = 3
+2  ->  4 = 3
+2  ->  8 = 3
+3  ->  7 = 5
+3  ->  9 = 5
+4  ->  5 = 6
+4  ->  6 = 6
+4  ->  8 = 6
+5  ->  6 = 2
+5  ->  7 = 2
+6  ->  9 = 1
+7  ->  8 = 6
+8  ->  9 = 1
+
+_________AFFICHAGE GRAPHE______________
+
+    0  1  2  3  4  5  6  7  8  9  
+0   *  0  0  *  *  *  *  *  *  *
+1   *  *  2  *  2  2  *  *  *  *
+2   *  *  *  3  3  *  *  *  3  *
+3   *  *  *  *  *  *  *  5  *  5
+4   *  *  *  *  *  6  6  *  6  *
+5   *  *  *  *  *  *  2  2  *  *
+6   *  *  *  *  *  *  *  *  *  1
+7   *  *  *  *  *  *  *  *  6  *
+8   *  *  *  *  *  *  *  *  *  1
+9   *  *  *  *  *  *  *  *  *  *
+
+
+
+
+    0  1  2  3  4  5  6  7  8  9  
+0   F  V  V  F  F  F  F  F  F  F
+1   F  F  V  F  V  V  F  F  F  F
+2   F  F  F  V  V  F  F  F  V  F
+3   F  F  F  F  F  F  F  V  F  V
+4   F  F  F  F  F  V  V  F  V  F
+5   F  F  F  F  F  F  V  V  F  F
+6   F  F  F  F  F  F  F  F  F  V
+7   F  F  F  F  F  F  F  F  V  F
+8   F  F  F  F  F  F  F  F  F  V
+9   F  F  F  F  F  F  F  F  F  F
+
+Suppression des points de sorties:
+9
+Sommets restants :
+0  1  2  3  4  5  6  7  8
+Suppression des points de sorties:
+6
+8
+Sommets restants :
+0  1  2  3  4  5  7
+Suppression des points de sorties:
+7
+Sommets restants :
+0  1  2  3  4  5  
+Suppression des points de sorties:
+3
+5
+Sommets restants :
+0  1  2  4
+Suppression des points de sorties:
+4
+Sommets restants :
+0  1  2
+Suppression des points de sorties:
+2
+Sommets restants :
+0  1
+Suppression des points de sorties:
+1
+Sommets restants :
+0
+Suppression des points de sorties:
+0
+Sommets restants :
+
+Il n'y a pas de circuit dans le graphe  L3-F3-graphe9.txt
+
+--Rangs
+0  rang : 0
+1  rang : 1
+2  rang : 2
+3  rang : 3
+4  rang : 3
+5  rang : 4
+6  rang : 5
+7  rang : 5
+8  rang : 6
+9  rang : 7
+
+Verification que le graphe est d'ordonnancement correct :
+Le graphe est d'ordonnancement correct
+
+CALENDRIER AU PLUS TOT
+rang  0 :
+        sommet : 0 date au plus tot 0
+
+
+rang  1 :
+        sommet : 1 date au plus tot 0
+
+
+rang  2 :
+        sommet : 2 date au plus tot 2
+
+
+rang  3 :
+        sommet : 3 date au plus tot 5
+        sommet : 4 date au plus tot 5
+
+
+rang  4 :
+        sommet : 5 date au plus tot 11
+
+
+rang  5 :
+        sommet : 6 date au plus tot 13
+        sommet : 7 date au plus tot 13
+
+
+rang  6 :
+        sommet : 8 date au plus tot 19
+
+
+rang  7 :
+        sommet : 9 date au plus tot 20
+
+
+CALENDRIER AU PLUS TARD
+rang  7 :
+        sommet : 9 date au plus tot 20
+
+
+rang  6 :
+        sommet : 8 date au plus tot 19
+
+
+rang  5 :
+        sommet : 6 date au plus tot 19
+        sommet : 7 date au plus tot 13
+
+
+rang  4 :
+        sommet : 5 date au plus tot 11
+
+
+rang  3 :
+        sommet : 3 date au plus tot 8
+        sommet : 4 date au plus tot 5
+
+
+rang  2 :
+        sommet : 2 date au plus tot 2
+
+
+rang  1 :
+        sommet : 1 date au plus tot 0
+
+
+rang  0 :
+        sommet : 0 date au plus tot 0
+
+
+MARGE CALENDRIER
+rang  0 :
+        Sommet : 0
+                 marge :  0
+rang  1 :
+        Sommet : 1
+                 marge :  0
+rang  2 :
+        Sommet : 2
+                 marge :  0
+rang  3 :
+        Sommet : 3
+                 marge :  3
+        Sommet : 4
+                 marge :  0
+rang  4 :
+        Sommet : 5
+                 marge :  0
+rang  5 :
+        Sommet : 6
+                 marge :  6
+        Sommet : 7
+                 marge :  0
+rang  6 :
+        Sommet : 8
+                 marge :  0
+rang  7 :
+        Sommet : 9
+                 marge :  0
