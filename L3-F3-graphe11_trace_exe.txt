@@ -1,0 +1,56 @@
+11  Sommets
+13  Arcs
+1  ->  9 = 1
+2  ->  0 = 2
+3  ->  0 = 3
+4  ->  5 = 4
+5  ->  8 = 5
+6  ->  3 = 6
+6  ->  10 = 6
+7  ->  8 = 7
+7  ->  2 = 7
+8  ->  0 = 8
+8  ->  9 = 8
+9  ->  4 = 9
+10  ->  1 = 10
+
+_________AFFICHAGE GRAPHE______________
+
+    0  1  2  3  4  5  6  7  8  9  10
+0   *  *  *  *  *  *  *  *  *  *  *
+1   *  *  *  *  *  *  *  *  *  1  *
+2   2  *  *  *  *  *  *  *  *  *  *
+3   3  *  *  *  *  *  *  *  *  *  *
+4   *  *  *  *  *  4  *  *  *  *  *
+5   *  *  *  *  *  *  *  *  5  *  *
+6   *  *  *  6  *  *  *  *  *  *  6
+7   *  *  7  *  *  *  *  *  7  *  *
+8   8  *  *  *  *  *  *  *  *  8  *
+9   *  *  *  *  9  *  *  *  *  *  *
+10   *  10  *  *  *  *  *  *  *  *  *
+
+
+
+
+    0  1  2  3  4  5  6  7  8  9  10
+0   F  F  F  F  F  F  F  F  F  F  F
+1   F  F  F  F  F  F  F  F  F  V  F
+2   V  F  F  F  F  F  F  F  F  F  F
+3   V  F  F  F  F  F  F  F  F  F  F
+4   F  F  F  F  F  V  F  F  F  F  F
+5   F  F  F  F  F  F  F  F  V  F  F
+6   F  F  F  V  F  F  F  F  F  F  V
+7   F  F  V  F  F  F  F  F  V  F  F
+8   V  F  F  F  F  F  F  F  F  V  F
+9   F  F  F  F  V  F  F  F  F  F  F
+10   F  V  F  F  F  F  F  F  F  F  F
+
+Suppression des points de sorties:
+0
+Sommets restants :
+1  2  3  4  5  6  7  8  9  10
+Suppression des points de sorties:
+2
+3
+Sommets restants :
+1  4  5  6  7  8  9  10  Il existe un circuit dans le graphe  L3-F3-graphe11.txt

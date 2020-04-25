@@ -1,0 +1,86 @@
+10  Sommets
+18  Arcs
+0  ->  1 = 0
+0  ->  2 = 0
+1  ->  2 = 2
+1  ->  4 = 2
+1  ->  5 = 2
+2  ->  3 = 3
+2  ->  4 = 3
+2  ->  8 = 3
+3  ->  7 = 5
+3  ->  9 = 5
+4  ->  5 = 6
+4  ->  6 = 6
+4  ->  8 = 6
+5  ->  6 = 2
+5  ->  7 = 2
+6  ->  9 = 1
+7  ->  8 = 6
+8  ->  9 = 1
+
+_________AFFICHAGE GRAPHE______________
+
+    0  1  2  3  4  5  6  7  8  9  
+0   *  0  0  *  *  *  *  *  *  *
+1   *  *  2  *  2  2  *  *  *  *
+2   *  *  *  3  3  *  *  *  3  *
+3   *  *  *  *  *  *  *  5  *  5
+4   *  *  *  *  *  6  6  *  6  *
+5   *  *  *  *  *  *  2  2  *  *
+6   *  *  *  *  *  *  *  *  *  1
+7   *  *  *  *  *  *  *  *  6  *
+8   *  *  *  *  *  *  *  *  *  1
+9   *  *  *  *  *  *  *  *  *  *
+
+
+
+
+    0  1  2  3  4  5  6  7  8  9  
+0   F  V  V  F  F  F  F  F  F  F
+1   F  F  V  F  V  V  F  F  F  F
+2   F  F  F  V  V  F  F  F  V  F
+3   F  F  F  F  F  F  F  V  F  V
+4   F  F  F  F  F  V  V  F  V  F
+5   F  F  F  F  F  F  V  V  F  F
+6   F  F  F  F  F  F  F  F  F  V
+7   F  F  F  F  F  F  F  F  V  F
+8   F  F  F  F  F  F  F  F  F  V
+9   F  F  F  F  F  F  F  F  F  F
+
+Suppression des points de sorties:
+9
+Sommets restants :
+0  1  2  3  4  5  6  7  8
+Suppression des points de sorties:
+6
+8
+Sommets restants :
+0  1  2  3  4  5  7
+Suppression des points de sorties:
+7
+Sommets restants :
+0  1  2  3  4  5  
+Suppression des points de sorties:
+3
+5
+Sommets restants :
+0  1  2  4
+Suppression des points de sorties:
+4
+Sommets restants :
+0  1  2
+Suppression des points de sorties:
+2
+Sommets restants :
+0  1
+Suppression des points de sorties:
+1
+Sommets restants :
+0
+Suppression des points de sorties:
+0
+Sommets restants :
+Il n'y a pas de circuit dans le graphe  L3-F3-graphe9.txt
+Verification que le graphe est d'ordonnancement correct :
+Le graphe est d'ordonnancement correct
