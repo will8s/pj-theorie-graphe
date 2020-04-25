@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from graphe import *
 
+from F3_graphe import *
 
 def main():
 	graph_file = ['L3-F3-graphe1.txt',"L3-F3-graphe2.txt", "L3-F3-graphe3.txt", "L3-F3-graphe4.txt","L3-F3-graphe5.txt", "L3-F3-graphe6.txt", "L3-F3-graphe7.txt","L3-F3-graphe8.txt", "L3-F3-graphe9.txt", "L3-F3-graphe10.txt", "L3-F3-graphe11.txt","L3-F3-graphe12.txt","L3-F3-graphe13.txt"]
@@ -9,7 +9,7 @@ def main():
 
 		while  True:
 			
-			print("Veuillez choisir le graphe a traiter: \n")
+			print("Veuillez choisir le graphe à traiter: \n")
 			for i, g in enumerate(graph_file):
 				print(i, ": ", g)
 			try:
@@ -20,7 +20,7 @@ def main():
 				else:
 					break;
 			except:
-				print("Merci de rentre un nombre")
+				print("Merci de rentré un nombre")
 
 
 		a = Graphe(graph_file[number])
@@ -38,10 +38,12 @@ def main():
 			print("Il existe un circuit dans le graphe ", graph_file[number])
 		else:
 			print("Il n'y a pas de circuit dans le graphe ", graph_file[number])
+			a.rang()
 			print("Verification que le graphe est d'ordonnancement correct :")
 			isc = a.iscorrect()
 			if(isc):
 				print("Le graphe est d'ordonnancement correct")
+				a.affiche_calendrier()
 			else:
 				print("Le graphe n'est pas d'ordonnancement correct")
 		print("\n\n")
