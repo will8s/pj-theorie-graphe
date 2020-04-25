@@ -1,0 +1,85 @@
+TRACE GRAPHE 2
+
+Quel fichier souhaitez vous utiliser ? :1
+14  Sommets
+23  Arcs
+0  ->  1 = 0
+1  ->  5 = 2
+5  ->  7 = 2
+5  ->  6 = 2
+7  ->  8 = 6
+8  ->  9 = 1
+1  ->  4 = 2
+1  ->  2 = 2
+4  ->  5 = 6
+4  ->  6 = 6
+6  ->  4 = 6
+4  ->  8 = 6
+0  ->  2 = 0
+2  ->  4 = 3
+2  ->  8 = 3
+2  ->  3 = 3
+3  ->  7 = 5
+3  ->  9 = 5
+10  ->  2 = 4
+10  ->  7 = 4
+11  ->  12 = 1
+11  ->  13 = 1
+13  ->  12 = 2
+
+_________AFFICHAGE GRAPHE______________
+
+    0  1  2  3  4  5  6  7  8  9  10  11  12  13  
+0   *  0  0  *  *  *  *  *  *  *  *  *  *  *
+1   *  *  2  *  2  2  *  *  *  *  *  *  *  *
+2   *  *  *  3  3  *  *  *  3  *  *  *  *  *
+3   *  *  *  *  *  *  *  5  *  5  *  *  *  *
+4   *  *  *  *  *  6  6  *  6  *  *  *  *  *
+5   *  *  *  *  *  *  2  2  *  *  *  *  *  *
+6   *  *  *  *  6  *  *  *  *  *  *  *  *  *
+7   *  *  *  *  *  *  *  *  6  *  *  *  *  *
+8   *  *  *  *  *  *  *  *  *  1  *  *  *  *
+9   *  *  *  *  *  *  *  *  *  *  *  *  *  *
+10   *  *  4  *  *  *  *  4  *  *  *  *  *  *
+11   *  *  *  *  *  *  *  *  *  *  *  *  1  1
+12   *  *  *  *  *  *  *  *  *  *  *  *  *  *
+13   *  *  *  *  *  *  *  *  *  *  *  *  2  *
+ 
+
+
+
+    0  1  2  3  4  5  6  7  8  9  10  11  12  13  
+0   F  V  V  F  F  F  F  F  F  F  F  F  F  F
+1   F  F  V  F  V  V  F  F  F  F  F  F  F  F
+2   F  F  F  V  V  F  F  F  V  F  F  F  F  F
+3   F  F  F  F  F  F  F  V  F  V  F  F  F  F
+4   F  F  F  F  F  V  V  F  V  F  F  F  F  F
+5   F  F  F  F  F  F  V  V  F  F  F  F  F  F
+6   F  F  F  F  V  F  F  F  F  F  F  F  F  F
+7   F  F  F  F  F  F  F  F  V  F  F  F  F  F
+8   F  F  F  F  F  F  F  F  F  V  F  F  F  F
+9   F  F  F  F  F  F  F  F  F  F  F  F  F  F
+10   F  F  V  F  F  F  F  V  F  F  F  F  F  F
+11   F  F  F  F  F  F  F  F  F  F  F  F  V  V
+12   F  F  F  F  F  F  F  F  F  F  F  F  F  F
+13   F  F  F  F  F  F  F  F  F  F  F  F  V  F
+
+Suppression des points de sorties:
+9
+12
+Sommets restants :
+0  1  2  3  4  5  6  7  8  10  11  13  
+Suppression des points de sorties:
+8
+13
+Sommets restants :
+0  1  2  3  4  5  6  7  10  11  
+Suppression des points de sorties:
+7
+11
+Sommets restants :
+0  1  2  3  4  5  6  10  
+Suppression des points de sorties:
+3
+Sommets restants :
+0  1  2  4  5  6  10  Il existe un circuit dans le graphe  L3-F3-graphe2.txt
