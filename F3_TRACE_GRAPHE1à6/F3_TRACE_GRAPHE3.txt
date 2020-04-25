@@ -1,6 +1,6 @@
 TRACE GRAPHE 3
 
-Quel fichier souhaitez vous utiliser ? :2   
+Quel fichier souhaitez vous utiliser ? :2
 10  Sommets
 18  Arcs
 0  ->  1 = 0
@@ -67,5 +67,3 @@ Suppression des points de sorties:
 3
 Sommets restants :
 0  1  2  4  5  6  Il existe un circuit dans le graphe  L3-F3-graphe3.txt
-
-

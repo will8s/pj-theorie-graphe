@@ -90,5 +90,119 @@ Suppression des points de sorties:
 0
 Sommets restants :
 Il n'y a pas de circuit dans le graphe  L3-F3-graphe1.txt
+--Rangs
+0  rang : 0
+1  rang : 4
+2  rang : 2
+3  rang : 2
+4  rang : 1
+5  rang : 2
+6  rang : 1
+7  rang : 1
+8  rang : 3
+9  rang : 5
+10  rang : 1
+11  rang : 6
 Verification que le graphe est d'ordonnancement correct :
 Le graphe est d'ordonnancement correct
+CALENDRIER AU PLUS TOT
+rang  0 :
+	sommet : 0 date au plus tot 0
+
+
+rang  1 :
+	sommet : 4 date au plus tot 0
+	sommet : 6 date au plus tot 0
+	sommet : 7 date au plus tot 0
+	sommet : 10 date au plus tot 0
+
+
+rang  2 :
+	sommet : 2 date au plus tot 7
+	sommet : 3 date au plus tot 10
+	sommet : 5 date au plus tot 4
+
+
+rang  3 :
+	sommet : 8 date au plus tot 9
+
+
+rang  4 :
+	sommet : 1 date au plus tot 17
+
+
+rang  5 :
+	sommet : 9 date au plus tot 18
+
+
+rang  6 :
+	sommet : 11 date au plus tot 27
+
+
+CALENDRIER AU PLUS TARD
+rang  6 :
+	sommet : 11 date au plus tot 27
+
+
+rang  5 :
+	sommet : 9 date au plus tot 18
+
+
+rang  4 :
+	sommet : 1 date au plus tot 17
+
+
+rang  3 :
+	sommet : 8 date au plus tot 9
+
+
+rang  2 :
+	sommet : 2 date au plus tot 16
+	sommet : 3 date au plus tot 15
+	sommet : 5 date au plus tot 4
+
+
+rang  1 :
+	sommet : 4 date au plus tot 0
+	sommet : 6 date au plus tot 9
+	sommet : 7 date au plus tot 2
+	sommet : 10 date au plus tot 5
+
+
+rang  0 :
+	sommet : 0 date au plus tot 0
+
+
+MARGE CALENDRIER
+rang  0 :
+	Sommet : 0
+	 	 marge :  0
+rang  1 :
+	Sommet : 4
+	 	 marge :  0
+	Sommet : 6
+	 	 marge :  9
+	Sommet : 7
+	 	 marge :  2
+	Sommet : 10
+	 	 marge :  5
+rang  2 :
+	Sommet : 2
+	 	 marge :  9
+	Sommet : 3
+	 	 marge :  5
+	Sommet : 5
+	 	 marge :  0
+rang  3 :
+	Sommet : 8
+	 	 marge :  0
+rang  4 :
+	Sommet : 1
+	 	 marge :  0
+rang  5 :
+	Sommet : 9
+	 	 marge :  0
+rang  6 :
+	Sommet : 11
+	 	 marge :  0
+
